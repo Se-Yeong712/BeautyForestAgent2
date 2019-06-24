@@ -9,19 +9,17 @@ using System.Windows.Forms;
 
 namespace BeautyForestAgent
 {
-    public partial class Form1 : Form
+    public partial class FormAbout : Form
     {
-        public Form1()
+        public FormAbout()
         {
             InitializeComponent();
         }
-        private void VisibleChange(bool visible)
+
+        public string Title
         {
-            this.Visible = visible;
-            this.ntiTray.Visible = !visible;
+            set { this.Text = value; }
         }
 
-        
     }
-
 }
