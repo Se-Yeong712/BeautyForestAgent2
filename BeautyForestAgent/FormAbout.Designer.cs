@@ -60,6 +60,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Name = "FormAbout";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormAbout";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
